@@ -16,9 +16,10 @@ The basic algorithm of quicksort is as follows:
 3. You now have two lists (be using the old starting point and the pivot, and another with the pivot and the old ending point) that needs to be sorted, but no number should need to cross the pivot; This allows you to keep iterating through this algorithm until everything is sorted.
 
 ## 2. Basic Program
-In the folder...
+If you look into the c folder you will find a file named quicksort.c this is a 'complete' c program, with a main, to try different arrays to have quicksorted. You have to manually include the array by editing the c file. Use this file to walk through and see what the code is doing. Notice the swap and partition functions as they are the core workers of the code. The quickSort function is only ever starting the chain of work. printArray can be taken out or adjusted completely, as it is only there to make sure that the final array is in fact sorted.
 
-## 5. Collected Data
+
+
 
 
 ## Extra: Other Resources
@@ -41,7 +42,7 @@ In the folder...
 
 
 ## Extra: Goals with research
-1. Basic C Program
+1. ~~Basic C Program~~
 2. GPU C Program
 3. CPU C Porgram
 4. Basic Python Program
